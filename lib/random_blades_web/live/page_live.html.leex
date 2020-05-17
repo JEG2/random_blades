@@ -4,4 +4,7 @@
   <li>
     <%= live_redirect "Name", to: Routes.generator_path(@socket, :index, %{generator: "Name"}) %>
   </li>
+  <li>
+    <%= live_redirect "Person", to: Routes.generator_path(@socket, :index, %{generator: "Person"}) %>
+  </li>
 </ul>

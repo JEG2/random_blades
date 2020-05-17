@@ -144,6 +144,65 @@ defmodule RandomBladesWeb.GeneratorLive do
     )
   end
 
+  defp render_generated(
+         socket,
+         %{display: :sentence} = template,
+         path,
+         _remove_action?
+       ) do
+    render_values(
+      socket,
+      template.values,
+      path,
+      ", ",
+      match?(%Template.List{}, template)
+    )
+    |> String.replace(~r{\A(.+),\s(.+)}, "\\1 and \\2")
+  end
+
+  defp render_generated(
+         socket,
+         %{display: :named_list} = template,
+         path,
+         _remove_action?
+       ) do
+    list =
+      template.values
+      |> Enum.with_index()
+      |> Enum.map(fn {template, i} ->
+        [
+          content_tag(:dt, template.name) |> safe_to_string,
+          "<dd>",
+          render_generated(socket, template, path ++ [i]),
+          "</dd>"
+        ]
+      end)
+      |> Enum.join("")
+
+    "<dl>#{list}</dl>"
+  end
+
+  defp render_generated(
+         socket,
+         %{display: :unordered_list} = template,
+         path,
+         _remove_action?
+       ) do
+    list =
+      template.values
+      |> Enum.with_index()
+      |> Enum.map(fn {template, i} ->
+        [
+          "<li>",
+          render_generated(socket, template, path ++ [i]),
+          "</li>"
+        ]
+      end)
+      |> Enum.join("")
+
+    "<ul>#{list}</ul>"
+  end
+
   defp render_generated(socket, raw_value, path, remove_action?) do
     value = [
       html_escape(raw_value),

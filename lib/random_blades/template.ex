@@ -61,7 +61,10 @@ defmodule RandomBlades.Template do
     end
   end
 
-  @display_types ~w[words hyphenated quoted_words paragraph_of_words]a
+  @display_types ~w[
+    words hyphenated quoted_words paragraph_of_words sentence
+    named_list unordered_list
+  ]a
 
   def support_generator(fields) do
     if Keyword.has_key?(fields, :generator) do
