@@ -1,6 +1,6 @@
 defmodule RandomBlades.Generator.Person do
   use RandomBlades.Generator
-  alias RandomBlades.Generator.Name
+  alias RandomBlades.Generator.{Devil, Name}
 
   data_source(:look)
   data_source(:style)
@@ -32,8 +32,16 @@ defmodule RandomBlades.Generator.Person do
           "Severosi"
 
         rand == 6 ->
-          "Tycherosi (FIXME: demon trait)"
+          "Tycherosi (#{demonic_trait()})"
       end
+    end
+  end
+
+  def demonic_trait do
+    if :rand.uniform(6) <= 3 do
+      Devil.feature()
+    else
+      Devil.effect()
     end
   end
 
