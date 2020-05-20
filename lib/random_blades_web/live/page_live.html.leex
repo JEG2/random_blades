@@ -2,10 +2,13 @@
 
 <ul>
   <li>
+    <%= live_redirect "Cult", to: Routes.generator_path(@socket, :index, %{generator: "Cult"}) %>
+  </li>
+  <li>
     <%= live_redirect "Devil", to: Routes.generator_path(@socket, :index, %{generator: "Devil"}) %>
   </li>
   <li>
-    <%= live_redirect "Cult", to: Routes.generator_path(@socket, :index, %{generator: "Cult"}) %>
+    <%= live_redirect "Event", to: Routes.generator_path(@socket, :index, %{generator: "Event"}) %>
   </li>
   <li>
     <%= live_redirect "Name", to: Routes.generator_path(@socket, :index, %{generator: "Name"}) %>
