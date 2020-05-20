@@ -40,7 +40,7 @@ defmodule RandomBladesWeb.GeneratorLive do
 
   @impl true
   def handle_event("add", %{"path" => path_string}, socket) do
-    {path, access_path} = parse_paths(path_string)
+    {_path, access_path} = parse_paths(path_string)
 
     new_data =
       update_in(
@@ -209,15 +209,14 @@ defmodule RandomBladesWeb.GeneratorLive do
       render_action(socket, "repeat-signs@1x.png", :reroll, path)
     ]
 
-    value_with_remove =
-      if remove_action? do
-        value ++
-          [render_action(socket, "remove-layer-editing@1x.png", :remove, path)]
-      else
-        value
-      end
-      |> Enum.map(&safe_to_string/1)
-      |> Enum.join("")
+    if remove_action? do
+      value ++
+        [render_action(socket, "remove-layer-editing@1x.png", :remove, path)]
+    else
+      value
+    end
+    |> Enum.map(&safe_to_string/1)
+    |> Enum.join("")
   end
 
   defp render_values(
