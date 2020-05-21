@@ -16,4 +16,7 @@
   <li>
     <%= live_redirect "Person", to: Routes.generator_path(@socket, :index, %{generator: "Person"}) %>
   </li>
+  <li>
+    <%= live_redirect "Street", to: Routes.generator_path(@socket, :index, %{generator: "Street"}) %>
+  </li>
 </ul>

@@ -1,0 +1,54 @@
+Nets, Ropes
+Crates, Boxes
+Cables, Chains
+Drain Pipes
+Water Pump
+Oil Drums
+Brick Pile
+Iron Bars
+Wooden Boards
+Cut Stones
+Loose Rocks
+Cement Buckets
+Sewer Grate
+Rotting Refuse
+Mud Puddles
+Discarded Junk
+Carrion & Crows
+Sodden Trash
+Carriages
+Push Carts
+Moored Boats
+Cargo Barge
+Gondolas
+Wagons
+Crane & Pulleys
+Cargo Bales
+Metal Ingots
+Industrial Forge
+Coal / Fuel
+Waste Bins
+Street Lamps
+Electric Wires
+Junction Boxes
+Spotlight Tower
+Clock Tower
+Messenger Post
+Withered Trees
+Monument
+Fountain
+Mossy Ruin
+Collapsed Building
+Flimsy Hovel
+Barricade
+Gate
+Checkpoint
+Piled Rubble
+Canal Lock
+Lightning Barrier
+Food Stall
+Vendor Stall
+Barrels, Casks
+Makeshift Shrine
+News Stand
+Stockade

@@ -1,0 +1,6 @@
+Cook Fires, Furnaces
+Damp Wood, Decay, Refuse
+Animals, Hides, Blood
+Chemicals, Distillates, Fumes
+Rain Water, Ocean
+Ozone, Electroplasmic Discharges
