@@ -132,7 +132,8 @@ defmodule RandomBlades.Template do
       if template.max == template.min do
         template.max
       else
-        :rand.uniform(template.max - template.min) - 1 + template.min
+        :rand.uniform(template.max - (template.min - 1)) +
+          (template.min - 1)
       end
 
     values =
@@ -207,9 +208,11 @@ defmodule RandomBlades.Template do
 
     %{
       template
-      | values: template.values ++ [
-        evaluate_generator(template.source, generator)
-      ]
+      | values:
+          template.values ++
+            [
+              evaluate_generator(template.source, generator)
+            ]
     }
   end
 

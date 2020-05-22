@@ -1,0 +1,28 @@
+Chalkboard, Desks, Papers
+Maps, Charts, Diagrams
+Books, Scrolls, Bookcases
+Lamp, Inkwell, Writing Desk
+Clock, Cabinet, Shelves
+Table, Chairs, Notebooks
+Bed, Bureau, Vanity
+Bunks, Stools, Trunks
+Basin, Pitcher, Mirror
+Sofa, Divan, Music Box
+Couches, Table, Lamps
+Drapery, Pillows, Cushions
+Counter, Sink, Cabinets
+Cookfire, Pots, Pans, Utensils
+Dining Table, Chairs, Cutlery
+Game Board, Cards, Dice
+Larder, Spices, Meat Hooks
+Wine, Beer, Whiskey
+Pedestal, Statue, Paintings
+Bird Cage, Quill, Diary
+Bell, Book, Candle
+Fireplace, Rug, Armchair
+Curtains, Vases, Flowers
+Instruments, Music Sheets
+Exam Chair, Medical Tools
+Burner, Vials, Beakers
+Workbench, Tools, Rags
+Weapons, Ammunition
