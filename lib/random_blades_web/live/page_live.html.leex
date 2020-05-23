@@ -17,7 +17,13 @@
     <%= live_redirect "Name", to: Routes.generator_path(@socket, :index, %{generator: "Name"}) %>
   </li>
   <li>
+    <%= live_redirect "Smuggler's Opportunity", to: Routes.generator_path(@socket, :index, %{generator: "Opportunity"}) %>
+  </li>
+  <li>
     <%= live_redirect "Person", to: Routes.generator_path(@socket, :index, %{generator: "Person"}) %>
+  </li>
+  <li>
+    <%= live_redirect "Score", to: Routes.generator_path(@socket, :index, %{generator: "Score"}) %>
   </li>
   <li>
     <%= live_redirect "Street", to: Routes.generator_path(@socket, :index, %{generator: "Street"}) %>

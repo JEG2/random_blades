@@ -1,0 +1,45 @@
+Skullduggery:  Stalking
+Skullduggery:  Surveillance
+Skullduggery:  Sabotage
+Skullduggery:  Arson
+Skullduggery:  Lift
+Skullduggery:  Plant
+Skullduggery:  Poison
+Skullduggery:  Arrange Accident
+Skullduggery:  Burglary
+Skullduggery:  Heist
+Skullduggery:  Impersonate
+Skullduggery:  Misdirect
+Violence:  Assassinate
+Violence:  Disappear
+Violence:  Ransom
+Violence:  Terrorize
+Violence:  Extort
+Violence:  Destroy
+Violence:  Deface
+Violence:  Raid
+Violence:  Defend
+Violence:  Rob
+Violence:  Strong-arm
+Underworld:  Escort
+Underworld:  Security
+Underworld:  Smuggle
+Underworld:  Courier
+Underworld:  Blackmail
+Underworld:  Discredit
+Underworld:  Con
+Underworld:  Espionage
+Underworld:  Locate
+Underworld:  Hide
+Underworld:  Negotiate
+Underworld:  Threaten
+Unnatural:  Curse
+Unnatural:  Sanctify
+Unnatural:  Banish
+Unnatural:  Summon
+Unnatural:  Extract Essence
+Unnatural:  Place
+Unnatural:  Remove Runes
+Unnatural:  Perform / Stop Ritual
+Unnatural:  Hollow
+Unnatural:  Revivify

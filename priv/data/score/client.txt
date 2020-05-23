@@ -1,0 +1,44 @@
+Civilian:  Academic
+Civilian:  Scholar
+Civilian:  Laborer
+Civilian:  Tradesman
+Civilian:  Courier
+Civilian:  Sailor
+Civilian:  Merchant
+Civilian:  Shopkeeper
+Civilian:  Artist
+Civilian:  Writer
+Civilian:  Doctor
+Civilian:  Alchemist
+Criminal:  Drug Dealer
+Criminal:  Supplier
+Criminal:  Mercenary
+Criminal:  Thug
+Criminal:  Fence
+Criminal:  Gambler
+Criminal:  Spy
+Criminal:  Informant
+Criminal:  Smuggler
+Criminal:  Thief
+Criminal:  Crime Boss
+Political:  Noble
+Political:  Official
+Political:  Banker
+Political:  Captain
+Political:  Revolutionary
+Political:  Refugee
+Political:  Clergy
+Political:  Cultist
+Political:  Constable
+Political:  Inspector
+Political:  Magistrate
+Political:  Ward Boss
+Strange:  Ghost of (roll again)
+Strange:  Occult Collector
+Strange:  Vampire
+Strange:  Other Undead
+Strange:  Demon (disguised)
+Strange:  Possessed
+Strange:  Hollow
+Strange:  Whisper
+Strange:  Cultist

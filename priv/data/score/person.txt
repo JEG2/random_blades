@@ -1,0 +1,6 @@
+PC:  Friend
+PC:  Rival
+PC:  Vice purveyor
+Crew:  Contact
+City:  Doskvol notable
+Weird:  Ghost, Demon, God
